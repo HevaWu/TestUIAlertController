@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D55C4DE21FAF23AE00EC0BEF /* SkipView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D55C4DE11FAF23AE00EC0BEF /* SkipView.swift */; };
+		D55C4DE41FAF23C000EC0BEF /* SkipViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D55C4DE31FAF23C000EC0BEF /* SkipViewController.swift */; };
 		F0FB9F961FAB181A00698730 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0FB9F951FAB181A00698730 /* AppDelegate.swift */; };
 		F0FB9F981FAB181A00698730 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0FB9F971FAB181A00698730 /* ViewController.swift */; };
 		F0FB9F9B1FAB181A00698730 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F0FB9F991FAB181A00698730 /* Main.storyboard */; };
@@ -26,6 +28,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		D55C4DE11FAF23AE00EC0BEF /* SkipView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkipView.swift; sourceTree = "<group>"; };
+		D55C4DE31FAF23C000EC0BEF /* SkipViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkipViewController.swift; sourceTree = "<group>"; };
 		F0FB9F921FAB181A00698730 /* TestUIAlertController.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestUIAlertController.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F0FB9F951FAB181A00698730 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F0FB9F971FAB181A00698730 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -79,6 +83,8 @@
 			children = (
 				F0FB9F951FAB181A00698730 /* AppDelegate.swift */,
 				F0FB9F971FAB181A00698730 /* ViewController.swift */,
+				D55C4DE11FAF23AE00EC0BEF /* SkipView.swift */,
+				D55C4DE31FAF23C000EC0BEF /* SkipViewController.swift */,
 				F0FB9F991FAB181A00698730 /* Main.storyboard */,
 				F0FB9F9C1FAB181A00698730 /* Assets.xcassets */,
 				F0FB9F9E1FAB181A00698730 /* LaunchScreen.storyboard */,
@@ -200,7 +206,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				F0FB9F981FAB181A00698730 /* ViewController.swift in Sources */,
+				D55C4DE41FAF23C000EC0BEF /* SkipViewController.swift in Sources */,
 				F0FB9F961FAB181A00698730 /* AppDelegate.swift in Sources */,
+				D55C4DE21FAF23AE00EC0BEF /* SkipView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -290,7 +298,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -341,7 +349,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";

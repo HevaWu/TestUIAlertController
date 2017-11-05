@@ -9,10 +9,10 @@
 import UIKit
 import Foundation
 
-private extension UIColor {
+//private extension UIColor {
 //    class var lineGreen: UIColor { return UIColor(rgb: 0x00D059) }
 //    class var counterText: UIColor { return UIColor(rgb: 0x828897) }
-}
+//}
 
 class ViewController: UIViewController {
     override func viewDidLoad() {
@@ -26,14 +26,28 @@ class ViewController: UIViewController {
     }
 
     @IBAction func popupUI(_ sender: UIButton) {
-        let alertController = UIAlertController(title: "Skip this item?",
-                                                message: "Once set, you can\'t revert any changes.",
-                                                preferredStyle: .alert)
+//        let alertController = UIAlertController(title: "Skip this item?",
+//                                                message: "Once set, you can\'t revert any changes.",
+//                                                preferredStyle: .alert)
+//        alertController.addAction(UIAlertAction(title: "Skip", style: .default, handler: nil))
+//        alertController.addAction(UIAlertAction(title: "Never mind", style: .cancel, handler: nil))
+
+        let alertController = UIAlertController(
+            title: "Skip this item?",
+            message: "Once set, you can\'t revert any changes.",
+            preferredStyle: .alert)
+        
+        let margin: CGFloat = 10.0
+        let rect = CGRect(x: margin, y: margin, width: margin, height: margin)
+        let customView = UIView(frame: rect)
+        
+        customView.backgroundColor = .green
+        alertController.view.addSubview(customView)
+        
         alertController.addAction(UIAlertAction(title: "Skip", style: .default, handler: nil))
         alertController.addAction(UIAlertAction(title: "Never mind", style: .cancel, handler: nil))
-
-
         
+        self.present(alertController, animated: true, completion: {})
     }
 
 
